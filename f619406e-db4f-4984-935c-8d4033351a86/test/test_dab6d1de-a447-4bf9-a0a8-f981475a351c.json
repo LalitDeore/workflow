@@ -1,0 +1,240 @@
+{
+  "actions": [
+    {
+      "app_name": "Shuffle Tools",
+      "app_version": "1.2.0",
+      "description": "Repeats the call parameter",
+      "app_id": "3e2bdf9d5069fe3f4746c29d68785a6a",
+      "errors": [],
+      "id": "26ebdf9b-e95e-4a0c-8e33-7381ccf41cae",
+      "is_valid": true,
+      "isStartNode": true,
+      "sharing": true,
+      "label": "Shuffle_Tools_1",
+      "public": true,
+      "generated": false,
+      "environment": "Cloud",
+      "name": "repeat_back_to_me",
+      "parameters": [
+        {
+          "description": "The message to repeat",
+          "id": "a3c55a0b-856b-4020-a746-9613ee68bdf1",
+          "name": "call",
+          "example": "REPEATING: Hello world",
+          "value": "Hello",
+          "multiline": true,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "STATIC_VALUE",
+          "required": true,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": "string"
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
+      "execution_variable": {
+        "description": "",
+        "id": "",
+        "name": "",
+        "value": ""
+      },
+      "position": {
+        "x": 347.0859051310206,
+        "y": 551.7009720774244
+      },
+      "authentication_id": "",
+      "category": "Other",
+      "reference_url": "",
+      "sub_action": false,
+      "source_workflow": "",
+      "run_magic_output": false,
+      "run_magic_input": false,
+      "execution_delay": 0,
+      "category_label": null,
+      "suggestion": false,
+      "parent_controlled": false
+    }
+  ],
+  "branches": [],
+  "visual_branches": [],
+  "triggers": [],
+  "comments": [],
+  "configuration": {
+    "exit_on_error": false,
+    "start_from_top": false,
+    "skip_notifications": false
+  },
+  "created": 1718001938,
+  "edited": 1732615330,
+  "last_runtime": 0,
+  "due_date": 0,
+  "id": "dab6d1de-a447-4bf9-a0a8-f981475a351c",
+  "is_valid": true,
+  "name": "test",
+  "description": "",
+  "start": "26ebdf9b-e95e-4a0c-8e33-7381ccf41cae",
+  "owner": "0acf1c84-0d91-4120-b557-8e944e594345",
+  "sharing": "private",
+  "org": [
+    {
+      "name": "lalit",
+      "id": "f619406e-db4f-4984-935c-8d4033351a86",
+      "users": null,
+      "role": "admin",
+      "creator_org": "",
+      "image": "",
+      "child_orgs": null,
+      "region_url": ""
+    }
+  ],
+  "execution_org": {
+    "name": "lalit ",
+    "id": "f619406e-db4f-4984-935c-8d4033351a86",
+    "users": null,
+    "role": "",
+    "creator_org": "",
+    "image": "",
+    "child_orgs": null,
+    "region_url": ""
+  },
+  "org_id": "f619406e-db4f-4984-935c-8d4033351a86",
+  "workflow_variables": null,
+  "execution_environment": "",
+  "previously_saved": true,
+  "categories": {
+    "siem": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "communication": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "assets": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "cases": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "network": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "intel": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "edr": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "iam": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "email": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "other": {
+      "name": "",
+      "count": 1,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    }
+  },
+  "example_argument": "",
+  "public": false,
+  "default_return_value": "",
+  "contact_info": {
+    "name": "",
+    "url": ""
+  },
+  "published_id": "",
+  "revision_id": "",
+  "usecase_ids": null,
+  "input_questions": null,
+  "form_control": {
+    "input_markdown": "",
+    "output_yields": null,
+    "form_width": 0
+  },
+  "blogpost": "",
+  "video": "",
+  "status": "test",
+  "workflow_type": "",
+  "generated": false,
+  "hidden": false,
+  "updated_by": "lalitdeore12@gmail.com",
+  "validated": false,
+  "validation": {
+    "valid": false,
+    "changed_at": 1732612864000,
+    "last_valid": 1725776887000,
+    "validation_ran": true,
+    "workflow_id": "",
+    "execution_id": "ebbb5d1c-3d35-4e43-972f-4629b44c3240",
+    "node_id": "",
+    "total_problems": 1,
+    "errors": [
+      {
+        "order": 0,
+        "action_id": "26ebdf9b-e95e-4a0c-8e33-7381ccf41cae",
+        "app_id": "3e2bdf9d5069fe3f4746c29d68785a6a",
+        "app_name": "Shuffle Tools",
+        "error": "Success is false: Check node for more failure details",
+        "type": "configuration",
+        "waiting": false
+      }
+    ],
+    "subflow_apps": []
+  },
+  "parentorg_workflow": "",
+  "childorg_workflow_ids": null,
+  "suborg_distribution": [],
+  "backup_config": {
+    "upload_repo": "",
+    "upload_branch": "",
+    "upload_username": "",
+    "upload_token": "",
+    "tokens_encrypted": false
+  },
+  "auth_groups": null
+}
