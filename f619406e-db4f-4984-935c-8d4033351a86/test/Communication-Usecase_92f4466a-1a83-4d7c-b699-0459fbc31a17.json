@@ -6,7 +6,6 @@
       "description": "Lists the messages in the user's mailbox.\n\nhttps://gmail.googleapis.com/gmail/v1/users/{userId}/messages",
       "app_id": "794e51c3c1a8b24b89ccc573a3defc47",
       "errors": [
-        "App authentication doesn't exist",
         "Action Gmail_1 (gmail) requires authentication",
         "Action Gmail_1 is missing required parameter userId"
       ],
@@ -305,11 +304,10 @@
     "skip_notifications": false
   },
   "created": 1706967652,
-  "edited": 1732787912,
+  "edited": 1732938271,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
-    "Selected app Authentication for app gmail doesn't exist!",
     "Action Gmail_1 (gmail) requires authentication",
     "Action Gmail_1 is missing required parameter userId"
   ],
