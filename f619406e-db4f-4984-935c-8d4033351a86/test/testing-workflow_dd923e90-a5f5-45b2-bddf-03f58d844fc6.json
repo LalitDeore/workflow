@@ -1,0 +1,224 @@
+{
+  "actions": [
+    {
+      "app_name": "Shuffle Tools",
+      "app_version": "1.2.0",
+      "description": "",
+      "app_id": "3e2bdf9d5069fe3f4746c29d68785a6a",
+      "errors": [],
+      "id": "cd13a57d-d4c1-425b-9826-46ac94a29119",
+      "is_valid": true,
+      "isStartNode": true,
+      "sharing": true,
+      "label": "Change_Me",
+      "public": true,
+      "generated": false,
+      "environment": "Cloud",
+      "name": "repeat_back_to_me",
+      "parameters": [
+        {
+          "description": "",
+          "id": "",
+          "name": "call",
+          "example": "Repeating: Hello World",
+          "value": "Hello world",
+          "multiline": true,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "STATIC_VALUE",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
+      "execution_variable": {
+        "description": "",
+        "id": "",
+        "name": "",
+        "value": ""
+      },
+      "position": {
+        "x": 641.0807392996109,
+        "y": 528.1070311284047
+      },
+      "authentication_id": "",
+      "category": "",
+      "reference_url": "",
+      "sub_action": false,
+      "source_workflow": "",
+      "run_magic_output": false,
+      "run_magic_input": false,
+      "execution_delay": 0,
+      "category_label": null,
+      "suggestion": false,
+      "parent_controlled": false
+    }
+  ],
+  "branches": [],
+  "visual_branches": [],
+  "triggers": [],
+  "comments": [],
+  "configuration": {
+    "exit_on_error": false,
+    "start_from_top": false,
+    "skip_notifications": false
+  },
+  "created": 1728456276,
+  "edited": 1733147964,
+  "last_runtime": 0,
+  "due_date": 0,
+  "id": "dd923e90-a5f5-45b2-bddf-03f58d844fc6",
+  "is_valid": true,
+  "name": "testing workflow",
+  "description": "",
+  "start": "cd13a57d-d4c1-425b-9826-46ac94a29119",
+  "owner": "e628a16e-c8bf-4ff0-8644-3de242ef2f7f",
+  "sharing": "private",
+  "execution_org": {
+    "name": "lalit  testing",
+    "id": "f619406e-db4f-4984-935c-8d4033351a86",
+    "users": null,
+    "role": "",
+    "creator_org": "",
+    "image": "",
+    "child_orgs": null,
+    "region_url": ""
+  },
+  "org_id": "f619406e-db4f-4984-935c-8d4033351a86",
+  "workflow_variables": null,
+  "execution_environment": "",
+  "previously_saved": true,
+  "categories": {
+    "siem": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "communication": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "assets": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "cases": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "network": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "intel": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "edr": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "iam": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "email": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    },
+    "other": {
+      "name": "",
+      "count": 0,
+      "id": "",
+      "description": "",
+      "large_image": ""
+    }
+  },
+  "example_argument": "",
+  "public": false,
+  "default_return_value": "",
+  "contact_info": {
+    "name": "",
+    "url": ""
+  },
+  "published_id": "",
+  "revision_id": "",
+  "usecase_ids": null,
+  "input_questions": null,
+  "input_markdown": "",
+  "output_yields": null,
+  "blogpost": "",
+  "video": "",
+  "status": "test",
+  "workflow_type": "",
+  "generated": false,
+  "hidden": false,
+  "updated_by": "lalitdeore00@gmail.com",
+  "validated": false,
+  "validation": {
+    "valid": false,
+    "changed_at": 0,
+    "last_valid": 0,
+    "validation_ran": false,
+    "workflow_id": "",
+    "execution_id": "",
+    "node_id": "",
+    "total_problems": 0,
+    "errors": [
+      {
+        "order": -1,
+        "action_id": "c29c1821-0da9-4076-890f-8d5790d66f28",
+        "app_id": "",
+        "app_name": "",
+        "error": "Schedule not started",
+        "type": "SCHEDULE",
+        "waiting": false
+      }
+    ],
+    "subflow_apps": []
+  },
+  "parentorg_workflow": "",
+  "childorg_workflow_ids": null,
+  "suborg_distribution": [],
+  "backup_config": {
+    "upload_repo": "",
+    "upload_branch": "",
+    "upload_username": "",
+    "upload_token": ""
+  },
+  "auth_groups": null
+}
