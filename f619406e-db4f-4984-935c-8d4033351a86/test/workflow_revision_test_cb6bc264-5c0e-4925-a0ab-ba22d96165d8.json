@@ -11,7 +11,7 @@
       "is_valid": true,
       "isStartNode": true,
       "sharing": true,
-      "label": "Change Me",
+      "label": "Change_Me",
       "public": true,
       "generated": false,
       "environment": "Cloud",
@@ -22,7 +22,7 @@
           "id": "",
           "name": "call",
           "example": "Repeating: Hello World",
-          "value": "Hello world",
+          "value": "Hello world_revision_1",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -490,7 +490,7 @@
       "source_id": "d6142493-f42f-43eb-ac57-167da38dc3ee",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -501,7 +501,7 @@
       "source_id": "d4ba7fb4-dabf-45dc-a5e4-62d1891e12ac",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -512,7 +512,7 @@
       "source_id": "b20e2928-cd35-42a4-aa34-f9d661750754",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -730,7 +730,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734628435,
+  "edited": 1734628559,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
@@ -867,7 +867,17 @@
     "execution_id": "",
     "node_id": "",
     "total_problems": 0,
-    "errors": [],
+    "errors": [
+      {
+        "order": -1,
+        "action_id": "d4ba7fb4-dabf-45dc-a5e4-62d1891e12ac",
+        "app_id": "",
+        "app_name": "",
+        "error": "Schedule not started",
+        "type": "SCHEDULE",
+        "waiting": false
+      }
+    ],
     "subflow_apps": []
   },
   "parentorg_workflow": "",
