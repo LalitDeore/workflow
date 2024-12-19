@@ -106,7 +106,7 @@
           "id": "0d6cbd05-4960-46c9-a158-fc9430ce3985",
           "name": "headers",
           "example": "Content-Type: application/json",
-          "value": "",
+          "value": "Content-Type: application/json",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -642,8 +642,8 @@
       "tags": null,
       "parameters": null,
       "position": {
-        "x": 575.1255,
-        "y": 894.5009999999999
+        "x": 417.98264285714305,
+        "y": 903.0724285714284
       },
       "priority": 0,
       "source_workflow": "",
@@ -732,7 +732,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734628625,
+  "edited": 1734629068,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
