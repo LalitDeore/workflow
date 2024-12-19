@@ -70,7 +70,7 @@
       "source_id": "3ad3a13c-23f9-4532-ad11-e08e5f85f0e4",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -84,7 +84,7 @@
       "long_description": "Execute a workflow with an unauthicated POST request",
       "status": "uninitialized",
       "app_version": "1.0.0",
-      "errors": [],
+      "errors": null,
       "id": "3ad3a13c-23f9-4532-ad11-e08e5f85f0e4",
       "is_valid": true,
       "isStartNode": false,
@@ -95,7 +95,52 @@
       "trigger_type": "WEBHOOK",
       "name": "Webhook",
       "tags": null,
-      "parameters": null,
+      "parameters": [
+        {
+          "description": "",
+          "id": "",
+          "name": "cron",
+          "example": "",
+          "value": "https://cc90-2401-4900-1c2d-4132-54a7-4aae-3820-fb66.ngrok-free.app/api/v1/hooks/webhook_3ad3a13c-23f9-4532-ad11-e08e5f85f0e4",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "execution_argument",
+          "example": "",
+          "value": "webhook_3ad3a13c-23f9-4532-ad11-e08e5f85f0e4",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
       "position": {
         "x": -1519.9596964285718,
         "y": 562.4474285714285
@@ -185,7 +230,7 @@
       "long_description": "Execute a workflow with an unauthicated POST request",
       "status": "uninitialized",
       "app_version": "1.0.0",
-      "errors": [],
+      "errors": null,
       "id": "597a7ef3-f7ba-49ac-8ee7-7c7dfdc997ad",
       "is_valid": true,
       "isStartNode": false,
@@ -196,7 +241,52 @@
       "trigger_type": "WEBHOOK",
       "name": "Webhook",
       "tags": null,
-      "parameters": null,
+      "parameters": [
+        {
+          "description": "",
+          "id": "",
+          "name": "cron",
+          "example": "",
+          "value": "https://cc90-2401-4900-1c2d-4132-54a7-4aae-3820-fb66.ngrok-free.app/api/v1/hooks/webhook_597a7ef3-f7ba-49ac-8ee7-7c7dfdc997ad",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "execution_argument",
+          "example": "",
+          "value": "webhook_597a7ef3-f7ba-49ac-8ee7-7c7dfdc997ad",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
       "position": {
         "x": -1545.6739821428573,
         "y": 351.01885714285714
@@ -288,7 +378,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734633255,
+  "edited": 1734633648,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
@@ -395,7 +485,7 @@
     "url": ""
   },
   "published_id": "",
-  "revision_id": "f40fc9208e1c6c45914cb8794bba50ab",
+  "revision_id": "a56559149d657bb78ae7112f75fc86c0",
   "usecase_ids": [
     "EDR to ticket",
     "External historical Enrichment",
