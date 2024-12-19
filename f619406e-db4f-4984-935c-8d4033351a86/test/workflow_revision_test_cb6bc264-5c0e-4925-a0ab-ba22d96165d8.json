@@ -546,7 +546,52 @@
       "trigger_type": "SCHEDULE",
       "name": "Schedule",
       "tags": null,
-      "parameters": null,
+      "parameters": [
+        {
+          "description": "",
+          "id": "",
+          "name": "cron",
+          "example": "",
+          "value": "*/25 * * * *",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "execution_argument",
+          "example": "",
+          "value": "{\"name\": \"value\"}",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
       "position": {
         "x": 123.69692857142842,
         "y": 717.3581428571429
@@ -1278,7 +1323,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734630191,
+  "edited": 1734631130,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
@@ -1387,7 +1432,7 @@
     "url": ""
   },
   "published_id": "",
-  "revision_id": "ec6e53aad8594969b0f95404a49c566e",
+  "revision_id": "08fb02aa459755f2f78c5eff83103819",
   "usecase_ids": [
     "EDR to ticket",
     "External historical Enrichment",
