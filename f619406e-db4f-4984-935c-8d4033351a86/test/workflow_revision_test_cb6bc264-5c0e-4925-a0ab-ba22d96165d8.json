@@ -70,7 +70,7 @@
       "source_id": "f05261ca-024f-4402-bf5f-d16a4701bc8e",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -296,7 +296,7 @@
       "long_description": "Execute a workflow with an unauthicated POST request",
       "status": "uninitialized",
       "app_version": "1.0.0",
-      "errors": [],
+      "errors": null,
       "id": "f05261ca-024f-4402-bf5f-d16a4701bc8e",
       "is_valid": true,
       "isStartNode": false,
@@ -307,7 +307,52 @@
       "trigger_type": "WEBHOOK",
       "name": "Webhook",
       "tags": null,
-      "parameters": null,
+      "parameters": [
+        {
+          "description": "",
+          "id": "",
+          "name": "cron",
+          "example": "",
+          "value": "https://cc90-2401-4900-1c2d-4132-54a7-4aae-3820-fb66.ngrok-free.app/api/v1/hooks/webhook_f05261ca-024f-4402-bf5f-d16a4701bc8e",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "execution_argument",
+          "example": "",
+          "value": "webhook_f05261ca-024f-4402-bf5f-d16a4701bc8e",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
       "position": {
         "x": 113.44761287965413,
         "y": 368.535353532298
@@ -399,7 +444,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734630920,
+  "edited": 1734631027,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
@@ -506,7 +551,7 @@
     "url": ""
   },
   "published_id": "",
-  "revision_id": "72a2fdd3eb24381f39f32759d41d58d7",
+  "revision_id": "291a7511dc0adf597a7e6ee69b50c28d",
   "usecase_ids": [
     "EDR to ticket",
     "External historical Enrichment",
