@@ -172,7 +172,7 @@
           "id": "267bc55e-76ef-4ffb-8a07-f6a1d6d4c681",
           "name": "verify",
           "example": "false",
-          "value": "",
+          "value": "false",
           "multiline": false,
           "multiselect": false,
           "options": [
@@ -263,7 +263,7 @@
           "id": "090c0afb-88c4-435a-bd33-c84f08cc5a1f",
           "name": "to_file",
           "example": "true",
-          "value": "",
+          "value": "false",
           "multiline": false,
           "multiselect": false,
           "options": [
@@ -312,9 +312,11 @@
       "app_version": "1.2.0",
       "description": "Takes a list and filters based on your data",
       "app_id": "3e2bdf9d5069fe3f4746c29d68785a6a",
-      "errors": [],
+      "errors": [
+        "Action Shuffle_Tools_1 is missing required parameter input_list"
+      ],
       "id": "b20e2928-cd35-42a4-aa34-f9d661750754",
-      "is_valid": true,
+      "is_valid": false,
       "sharing": true,
       "label": "Shuffle_Tools_1",
       "public": true,
@@ -332,7 +334,7 @@
           "multiselect": false,
           "options": null,
           "action_field": "",
-          "variant": "",
+          "variant": "STATIC_VALUE",
           "required": true,
           "configuration": false,
           "tags": null,
@@ -354,7 +356,7 @@
           "multiselect": false,
           "options": null,
           "action_field": "",
-          "variant": "",
+          "variant": "STATIC_VALUE",
           "required": true,
           "configuration": false,
           "tags": null,
@@ -371,7 +373,7 @@
           "id": "2f4791f7-7257-4a3d-b161-2560d350e0b9",
           "name": "check",
           "example": "equals",
-          "value": "",
+          "value": "equals",
           "multiline": false,
           "multiselect": false,
           "options": [
@@ -389,7 +391,7 @@
             "files by extension"
           ],
           "action_field": "",
-          "variant": "",
+          "variant": "STATIC_VALUE",
           "required": false,
           "configuration": false,
           "tags": null,
@@ -411,7 +413,7 @@
           "multiselect": false,
           "options": null,
           "action_field": "",
-          "variant": "",
+          "variant": "STATIC_VALUE",
           "required": false,
           "configuration": false,
           "tags": null,
@@ -428,7 +430,7 @@
           "id": "e754f013-eb68-4324-8c1f-01becb9295e1",
           "name": "opposite",
           "example": "false",
-          "value": "",
+          "value": "False",
           "multiline": false,
           "multiselect": false,
           "options": [
@@ -436,7 +438,7 @@
             "True"
           ],
           "action_field": "",
-          "variant": "",
+          "variant": "STATIC_VALUE",
           "required": false,
           "configuration": false,
           "tags": null,
@@ -640,8 +642,8 @@
       "tags": null,
       "parameters": null,
       "position": {
-        "x": 635.1254999999999,
-        "y": 765.9295714285713
+        "x": 575.1255,
+        "y": 894.5009999999999
       },
       "priority": 0,
       "source_workflow": "",
@@ -730,11 +732,12 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734628559,
+  "edited": 1734628625,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
     "Action http_1 is missing required parameter url",
+    "Action Shuffle_Tools_1 is missing required parameter input_list",
     "Trigger Schedule needs to be started"
   ],
   "id": "cb6bc264-5c0e-4925-a0ab-ba22d96165d8",
