@@ -63,19 +63,7 @@
       "parent_controlled": true
     }
   ],
-  "branches": [
-    {
-      "destination_id": "eabb2215-77f6-4162-9d36-c33193f7d72e",
-      "id": "b263b4c3-14f2-4ae9-8199-0df86d5af466",
-      "source_id": "d41280a7-138f-45c0-bb24-cf10c67b294d",
-      "label": "",
-      "has_errors": false,
-      "conditions": null,
-      "decorator": false,
-      "parent_controlled": true,
-      "source_parent": ""
-    }
-  ],
+  "branches": [],
   "visual_branches": [],
   "triggers": [
     {
