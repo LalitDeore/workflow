@@ -104,7 +104,7 @@
           "id": "0d6cbd05-4960-46c9-a158-fc9430ce3985",
           "name": "headers",
           "example": "Content-Type: application/json",
-          "value": "",
+          "value": "Content-Type: application/json",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -1409,7 +1409,52 @@
       "trigger_type": "WEBHOOK",
       "name": "Webhook",
       "tags": null,
-      "parameters": null,
+      "parameters": [
+        {
+          "description": "",
+          "id": "",
+          "name": "cron",
+          "example": "",
+          "value": "https://cc90-2401-4900-1c2d-4132-54a7-4aae-3820-fb66.ngrok-free.app/api/v1/hooks/webhook_ace1b6d1-16a4-49d7-9669-d4aa9a6c774a",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "execution_argument",
+          "example": "",
+          "value": "webhook_ace1b6d1-16a4-49d7-9669-d4aa9a6c774a",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
       "position": {
         "x": -947.3122500000001,
         "y": 429.53671428571425
