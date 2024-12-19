@@ -106,7 +106,7 @@
           "id": "0d6cbd05-4960-46c9-a158-fc9430ce3985",
           "name": "headers",
           "example": "Content-Type: application/json",
-          "value": "Content-Type: application/json",
+          "value": "",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -642,8 +642,8 @@
       "tags": null,
       "parameters": null,
       "position": {
-        "x": 417.98264285714305,
-        "y": 903.0724285714284
+        "x": 575.1255,
+        "y": 894.5009999999999
       },
       "priority": 0,
       "source_workflow": "",
