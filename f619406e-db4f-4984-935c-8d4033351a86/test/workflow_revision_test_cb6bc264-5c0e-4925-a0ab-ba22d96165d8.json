@@ -514,17 +514,6 @@
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
-    },
-    {
-      "destination_id": "5ddc1c57-a242-490a-9bcc-4cfcac7fd6b4",
-      "id": "8c255632-92f5-42a6-b20e-9a8b9b5f2ce1",
-      "source_id": "ace1b6d1-16a4-49d7-9669-d4aa9a6c774a",
-      "label": "",
-      "has_errors": false,
-      "conditions": [],
-      "decorator": false,
-      "parent_controlled": false,
-      "source_parent": ""
     }
   ],
   "visual_branches": [],
@@ -1391,152 +1380,6 @@
         "revision_id": ""
       },
       "parent_controlled": false
-    },
-    {
-      "app_name": "Webhook",
-      "description": "Custom HTTP input trigger",
-      "long_description": "Execute a workflow with an unauthicated POST request",
-      "status": "uninitialized",
-      "app_version": "1.0.0",
-      "errors": null,
-      "id": "ace1b6d1-16a4-49d7-9669-d4aa9a6c774a",
-      "is_valid": true,
-      "isStartNode": false,
-      "label": "Webhook_1",
-      "small_image": "",
-      "large_image": "",
-      "environment": "cloud",
-      "trigger_type": "WEBHOOK",
-      "name": "Webhook",
-      "tags": null,
-      "parameters": [
-        {
-          "description": "",
-          "id": "",
-          "name": "cron",
-          "example": "",
-          "value": "https://cc90-2401-4900-1c2d-4132-54a7-4aae-3820-fb66.ngrok-free.app/api/v1/hooks/webhook_ace1b6d1-16a4-49d7-9669-d4aa9a6c774a",
-          "multiline": false,
-          "multiselect": false,
-          "options": null,
-          "action_field": "",
-          "variant": "",
-          "required": false,
-          "configuration": false,
-          "tags": null,
-          "schema": {
-            "type": ""
-          },
-          "skip_multicheck": false,
-          "value_replace": null,
-          "unique_toggled": false,
-          "error": ""
-        },
-        {
-          "description": "",
-          "id": "",
-          "name": "execution_argument",
-          "example": "",
-          "value": "webhook_ace1b6d1-16a4-49d7-9669-d4aa9a6c774a",
-          "multiline": false,
-          "multiselect": false,
-          "options": null,
-          "action_field": "",
-          "variant": "",
-          "required": false,
-          "configuration": false,
-          "tags": null,
-          "schema": {
-            "type": ""
-          },
-          "skip_multicheck": false,
-          "value_replace": null,
-          "unique_toggled": false,
-          "error": ""
-        }
-      ],
-      "position": {
-        "x": -947.3122500000001,
-        "y": 429.53671428571425
-      },
-      "priority": 0,
-      "source_workflow": "",
-      "execution_delay": 0,
-      "app_association": {
-        "name": "",
-        "app_version": "",
-        "id": "",
-        "link": "",
-        "is_valid": false,
-        "generated": false,
-        "downloaded": false,
-        "sharing": false,
-        "verified": false,
-        "invalid": false,
-        "activated": false,
-        "tested": false,
-        "hash": "",
-        "private_id": "",
-        "environment": "",
-        "small_image": "",
-        "large_image": "",
-        "contact_info": {
-          "name": "",
-          "url": ""
-        },
-        "folder_mount": {
-          "folder_mount": false,
-          "source_folder": "",
-          "destination_folder": ""
-        },
-        "actions": null,
-        "authentication": {
-          "type": "",
-          "required": false,
-          "parameters": null,
-          "redirect_uri": "",
-          "token_uri": "",
-          "refresh_uri": "",
-          "scope": null,
-          "client_id": "",
-          "client_secret": "",
-          "grant_type": ""
-        },
-        "tags": null,
-        "categories": null,
-        "created": 0,
-        "edited": 0,
-        "last_runtime": 0,
-        "versions": null,
-        "loop_versions": null,
-        "owner": "",
-        "sharing_config": "",
-        "public": false,
-        "published_id": "",
-        "child_ids": null,
-        "reference_org": "",
-        "reference_url": "",
-        "action_file_path": "",
-        "template": false,
-        "documentation": "",
-        "description": "",
-        "documentation_download_url": "",
-        "primary_usecases": null,
-        "skipped_build": false,
-        "reference_info": {
-          "is_partner": false,
-          "partner_contacts": "",
-          "documentation_url": "",
-          "github_url": "",
-          "triggers": null
-        },
-        "blogpost": "",
-        "video": "",
-        "company_url": "",
-        "contributors": null,
-        "revision_id": ""
-      },
-      "parent_controlled": false
     }
   ],
   "comments": [],
@@ -1546,13 +1389,12 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734632332,
+  "edited": 1734633255,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
     "Selected Subflow in Action Shuffle_Workflow_1 doesn't exist",
-    "Trigger Schedule needs to be started",
-    "Trigger Webhook needs to be started"
+    "Trigger Schedule needs to be started"
   ],
   "id": "cb6bc264-5c0e-4925-a0ab-ba22d96165d8",
   "is_valid": true,
@@ -1655,7 +1497,7 @@
     "url": ""
   },
   "published_id": "",
-  "revision_id": "ec6e53aad8594969b0f95404a49c566e",
+  "revision_id": "f40fc9208e1c6c45914cb8794bba50ab",
   "usecase_ids": [
     "EDR to ticket",
     "External historical Enrichment",
@@ -1695,7 +1537,7 @@
         "waiting": false
       }
     ],
-    "subflow_apps": []
+    "subflow_apps": null
   },
   "parentorg_workflow": "",
   "childorg_workflow_ids": null,
