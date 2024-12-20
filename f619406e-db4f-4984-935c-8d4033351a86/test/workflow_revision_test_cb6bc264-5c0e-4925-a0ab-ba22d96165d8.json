@@ -444,7 +444,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734631027,
+  "edited": 1734680165,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
@@ -591,7 +591,7 @@
         "waiting": false
       }
     ],
-    "subflow_apps": null
+    "subflow_apps": []
   },
   "parentorg_workflow": "",
   "childorg_workflow_ids": null,
