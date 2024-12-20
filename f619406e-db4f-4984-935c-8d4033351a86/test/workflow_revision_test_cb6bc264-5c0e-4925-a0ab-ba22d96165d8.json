@@ -245,9 +245,9 @@
         {
           "description": "",
           "id": "",
-          "name": "cron",
+          "name": "url",
           "example": "",
-          "value": "https://cc90-2401-4900-1c2d-4132-54a7-4aae-3820-fb66.ngrok-free.app/api/v1/hooks/webhook_597a7ef3-f7ba-49ac-8ee7-7c7dfdc997ad",
+          "value": "http://localhost:5002/api/v1/hooks/webhook_597a7ef3-f7ba-49ac-8ee7-7c7dfdc997ad",
           "multiline": false,
           "multiselect": false,
           "options": null,
@@ -270,6 +270,28 @@
           "name": "execution_argument",
           "example": "",
           "value": "webhook_597a7ef3-f7ba-49ac-8ee7-7c7dfdc997ad",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "await_response",
+          "example": "",
+          "value": "v1,",
           "multiline": false,
           "multiselect": false,
           "options": null,
@@ -378,7 +400,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734679001,
+  "edited": 1734679190,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
