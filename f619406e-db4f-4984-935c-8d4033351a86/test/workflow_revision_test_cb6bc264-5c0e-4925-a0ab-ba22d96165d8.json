@@ -311,9 +311,9 @@
         {
           "description": "",
           "id": "",
-          "name": "cron",
+          "name": "url",
           "example": "",
-          "value": "https://cc90-2401-4900-1c2d-4132-54a7-4aae-3820-fb66.ngrok-free.app/api/v1/hooks/webhook_f05261ca-024f-4402-bf5f-d16a4701bc8e",
+          "value": "http://localhost:5002/api/v1/hooks/webhook_f05261ca-024f-4402-bf5f-d16a4701bc8e",
           "multiline": false,
           "multiselect": false,
           "options": null,
@@ -336,6 +336,50 @@
           "name": "execution_argument",
           "example": "",
           "value": "webhook_f05261ca-024f-4402-bf5f-d16a4701bc8e",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "await_response",
+          "example": "",
+          "value": "v1,",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "await_response",
+          "example": "",
+          "value": "v1,",
           "multiline": false,
           "multiselect": false,
           "options": null,
@@ -444,7 +488,7 @@
     "skip_notifications": false
   },
   "created": 1734628415,
-  "edited": 1734680165,
+  "edited": 1734679689,
   "last_runtime": 0,
   "due_date": 0,
   "errors": [
@@ -551,7 +595,7 @@
     "url": ""
   },
   "published_id": "",
-  "revision_id": "291a7511dc0adf597a7e6ee69b50c28d",
+  "revision_id": "6bc5b2d806aa0bfcf6d67e18b677c966",
   "usecase_ids": [
     "EDR to ticket",
     "External historical Enrichment",
@@ -591,7 +635,7 @@
         "waiting": false
       }
     ],
-    "subflow_apps": []
+    "subflow_apps": null
   },
   "parentorg_workflow": "",
   "childorg_workflow_ids": null,
