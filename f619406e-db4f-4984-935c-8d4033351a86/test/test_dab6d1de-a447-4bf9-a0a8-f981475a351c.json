@@ -13,7 +13,7 @@
       "label": "Shuffle_Tools_1",
       "public": true,
       "generated": false,
-      "environment": "whattosay?",
+      "environment": "cloud",
       "name": "repeat_back_to_me",
       "parameters": [
         {
@@ -21,7 +21,7 @@
           "id": "a3c55a0b-856b-4020-a746-9613ee68bdf1",
           "name": "call",
           "example": "REPEATING: Hello world",
-          "value": "Hello",
+          "value": "",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -59,12 +59,349 @@
       "execution_delay": 0,
       "category_label": null,
       "suggestion": false,
-      "parent_controlled": false
+      "parent_controlled": true
     }
   ],
-  "branches": [],
+  "branches": [
+    {
+      "destination_id": "26ebdf9b-e95e-4a0c-8e33-7381ccf41cae",
+      "id": "9aa83d0c-9c12-4d2c-840b-b3af8f62ca52",
+      "source_id": "243a9f99-8932-4bf1-b406-b1c5fe0faffd",
+      "label": "",
+      "has_errors": false,
+      "conditions": null,
+      "decorator": false,
+      "parent_controlled": true,
+      "source_parent": ""
+    },
+    {
+      "destination_id": "26ebdf9b-e95e-4a0c-8e33-7381ccf41cae",
+      "id": "555efc9e-04a1-4cbf-8340-649e4cb3422a",
+      "source_id": "6bb5a3ee-52e5-44d2-b804-95e5686b568c",
+      "label": "",
+      "has_errors": false,
+      "conditions": null,
+      "decorator": false,
+      "parent_controlled": true,
+      "source_parent": ""
+    }
+  ],
   "visual_branches": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "app_name": "Webhook",
+      "description": "Custom HTTP input trigger",
+      "long_description": "Execute a workflow with an unauthicated POST request",
+      "status": "uninitialized",
+      "app_version": "1.0.0",
+      "errors": [],
+      "id": "243a9f99-8932-4bf1-b406-b1c5fe0faffd",
+      "is_valid": true,
+      "isStartNode": false,
+      "label": "Webhook_1",
+      "small_image": "",
+      "large_image": "",
+      "environment": "cloud",
+      "trigger_type": "WEBHOOK",
+      "name": "Webhook",
+      "tags": null,
+      "parameters": [
+        {
+          "description": "",
+          "id": "",
+          "name": "url",
+          "example": "",
+          "value": "",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "tmp",
+          "example": "",
+          "value": "",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "auth_headers",
+          "example": "",
+          "value": "",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "custom_response_body",
+          "example": "",
+          "value": "",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        },
+        {
+          "description": "",
+          "id": "",
+          "name": "await_response",
+          "example": "",
+          "value": "v1",
+          "multiline": false,
+          "multiselect": false,
+          "options": null,
+          "action_field": "",
+          "variant": "",
+          "required": false,
+          "configuration": false,
+          "tags": null,
+          "schema": {
+            "type": ""
+          },
+          "skip_multicheck": false,
+          "value_replace": null,
+          "unique_toggled": false,
+          "error": ""
+        }
+      ],
+      "position": {
+        "x": -573.6639187189113,
+        "y": 667.3267686392526
+      },
+      "priority": 0,
+      "source_workflow": "",
+      "execution_delay": 0,
+      "app_association": {
+        "name": "",
+        "app_version": "",
+        "id": "",
+        "link": "",
+        "is_valid": false,
+        "generated": false,
+        "downloaded": false,
+        "sharing": false,
+        "verified": false,
+        "invalid": false,
+        "activated": false,
+        "tested": false,
+        "hash": "",
+        "private_id": "",
+        "environment": "",
+        "small_image": "",
+        "large_image": "",
+        "contact_info": {
+          "name": "",
+          "url": ""
+        },
+        "folder_mount": {
+          "folder_mount": false,
+          "source_folder": "",
+          "destination_folder": ""
+        },
+        "actions": null,
+        "authentication": {
+          "type": "",
+          "required": false,
+          "parameters": null,
+          "redirect_uri": "",
+          "token_uri": "",
+          "refresh_uri": "",
+          "scope": null,
+          "client_id": "",
+          "client_secret": "",
+          "grant_type": ""
+        },
+        "tags": null,
+        "categories": null,
+        "created": 0,
+        "edited": 0,
+        "last_runtime": 0,
+        "versions": null,
+        "loop_versions": null,
+        "owner": "",
+        "sharing_config": "",
+        "public": false,
+        "published_id": "",
+        "child_ids": null,
+        "reference_org": "",
+        "reference_url": "",
+        "action_file_path": "",
+        "template": false,
+        "documentation": "",
+        "description": "",
+        "documentation_download_url": "",
+        "primary_usecases": null,
+        "skipped_build": false,
+        "reference_info": {
+          "is_partner": false,
+          "partner_contacts": "",
+          "documentation_url": "",
+          "github_url": "",
+          "triggers": null
+        },
+        "blogpost": "",
+        "video": "",
+        "company_url": "",
+        "contributors": null,
+        "revision_id": ""
+      },
+      "parent_controlled": true
+    },
+    {
+      "app_name": "Webhook",
+      "description": "Custom HTTP input trigger",
+      "long_description": "Execute a workflow with an unauthicated POST request",
+      "status": "uninitialized",
+      "app_version": "1.0.0",
+      "errors": [],
+      "id": "6bb5a3ee-52e5-44d2-b804-95e5686b568c",
+      "is_valid": true,
+      "isStartNode": false,
+      "label": "Webhook_2",
+      "small_image": "",
+      "large_image": "",
+      "environment": "cloud",
+      "trigger_type": "WEBHOOK",
+      "name": "Webhook",
+      "tags": null,
+      "parameters": null,
+      "position": {
+        "x": -637.3512733957715,
+        "y": 319.16922973908385
+      },
+      "priority": 0,
+      "source_workflow": "",
+      "execution_delay": 0,
+      "app_association": {
+        "name": "",
+        "app_version": "",
+        "id": "",
+        "link": "",
+        "is_valid": false,
+        "generated": false,
+        "downloaded": false,
+        "sharing": false,
+        "verified": false,
+        "invalid": false,
+        "activated": false,
+        "tested": false,
+        "hash": "",
+        "private_id": "",
+        "environment": "",
+        "small_image": "",
+        "large_image": "",
+        "contact_info": {
+          "name": "",
+          "url": ""
+        },
+        "folder_mount": {
+          "folder_mount": false,
+          "source_folder": "",
+          "destination_folder": ""
+        },
+        "actions": null,
+        "authentication": {
+          "type": "",
+          "required": false,
+          "parameters": null,
+          "redirect_uri": "",
+          "token_uri": "",
+          "refresh_uri": "",
+          "scope": null,
+          "client_id": "",
+          "client_secret": "",
+          "grant_type": ""
+        },
+        "tags": null,
+        "categories": null,
+        "created": 0,
+        "edited": 0,
+        "last_runtime": 0,
+        "versions": null,
+        "loop_versions": null,
+        "owner": "",
+        "sharing_config": "",
+        "public": false,
+        "published_id": "",
+        "child_ids": null,
+        "reference_org": "",
+        "reference_url": "",
+        "action_file_path": "",
+        "template": false,
+        "documentation": "",
+        "description": "",
+        "documentation_download_url": "",
+        "primary_usecases": null,
+        "skipped_build": false,
+        "reference_info": {
+          "is_partner": false,
+          "partner_contacts": "",
+          "documentation_url": "",
+          "github_url": "",
+          "triggers": null
+        },
+        "blogpost": "",
+        "video": "",
+        "company_url": "",
+        "contributors": null,
+        "revision_id": ""
+      },
+      "parent_controlled": true
+    }
+  ],
   "comments": [],
   "configuration": {
     "exit_on_error": false,
@@ -72,9 +409,12 @@
     "skip_notifications": false
   },
   "created": 1718001938,
-  "edited": 1732618807,
+  "edited": 1732184973,
   "last_runtime": 0,
-  "due_date": 0,
+  "due_date": 1734566400,
+  "errors": [
+    "Trigger Webhook needs to be started"
+  ],
   "id": "dab6d1de-a447-4bf9-a0a8-f981475a351c",
   "is_valid": true,
   "name": "test",
@@ -95,7 +435,7 @@
     }
   ],
   "execution_org": {
-    "name": "lalit ",
+    "name": "lalit  ",
     "id": "f619406e-db4f-4984-935c-8d4033351a86",
     "users": null,
     "role": "",
@@ -190,12 +530,9 @@
   "published_id": "",
   "revision_id": "",
   "usecase_ids": null,
-  "input_questions": null,
-  "form_control": {
-    "input_markdown": "",
-    "output_yields": null,
-    "form_width": 0
-  },
+  "input_questions": [],
+  "input_markdown": "",
+  "output_yields": null,
   "blogpost": "",
   "video": "",
   "status": "test",
@@ -205,36 +542,27 @@
   "updated_by": "lalitdeore12@gmail.com",
   "validated": false,
   "validation": {
-    "valid": false,
-    "changed_at": 1732612864000,
+    "valid": true,
+    "changed_at": 1725776887000,
     "last_valid": 1725776887000,
-    "validation_ran": true,
+    "validation_ran": false,
     "workflow_id": "",
-    "execution_id": "ebbb5d1c-3d35-4e43-972f-4629b44c3240",
+    "execution_id": "13eb82a4-4f95-47c9-b261-c672f959a53e",
     "node_id": "",
-    "total_problems": 1,
-    "errors": [
-      {
-        "order": 0,
-        "action_id": "26ebdf9b-e95e-4a0c-8e33-7381ccf41cae",
-        "app_id": "3e2bdf9d5069fe3f4746c29d68785a6a",
-        "app_name": "Shuffle Tools",
-        "error": "Success is false: Check node for more failure details",
-        "type": "configuration",
-        "waiting": false
-      }
-    ],
+    "total_problems": 0,
+    "errors": [],
     "subflow_apps": []
   },
   "parentorg_workflow": "",
   "childorg_workflow_ids": null,
-  "suborg_distribution": [],
+  "suborg_distribution": [
+    "92621f8f-460f-44c7-b635-88b5f879dc06"
+  ],
   "backup_config": {
     "upload_repo": "",
     "upload_branch": "",
     "upload_username": "",
-    "upload_token": "",
-    "tokens_encrypted": false
+    "upload_token": ""
   },
   "auth_groups": null
 }
