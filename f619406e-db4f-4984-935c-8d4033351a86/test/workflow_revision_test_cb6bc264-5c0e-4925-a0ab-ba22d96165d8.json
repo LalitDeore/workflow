@@ -681,9 +681,11 @@
       "long_description": "Execute another workflow from this workflow",
       "status": "uninitialized",
       "app_version": "1.0.0",
-      "errors": null,
+      "errors": [
+        "Selected Subflow in Action Shuffle_Workflow_1 doesn't exist"
+      ],
       "id": "4d114bd3-89eb-4920-8ddf-33898c35c686",
-      "is_valid": true,
+      "is_valid": false,
       "isStartNode": false,
       "label": "Shuffle_Workflow_1",
       "small_image": "",
